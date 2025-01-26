@@ -1,5 +1,5 @@
 # New File Shortcut for Windows Explorer | autohotkey
-
+![video record](record.gif)
 ## Overview
 
 This AutoHotkey v2 script adds a convenient shortcut to create new files in Windows Explorer, similar to the built-in "New Folder" functionality.
@@ -32,6 +32,11 @@ It's curious that Windows provides a quick shortcut to create new folders (Ctrl+
 - Open Windows Explorer
 - Press Ctrl+N
 - Instantly create and name a new file
+
+## Startup Configuration
+To run scripts automatically on device startup place script shortcuts in:
+
+`C:\Users\<username>\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup`
 
 ## Contributing
 

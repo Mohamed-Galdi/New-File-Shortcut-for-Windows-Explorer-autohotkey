@@ -1,6 +1,5 @@
 ﻿#Requires AutoHotkey v2.0
 TraySetIcon("shell32.dll", 3)
-TrayTip("CreateFileMacro", "Ctrl+N to create a new file in the current Explorer window.")
 
 #HotIf WinActive("ahk_class CabinetWClass") || WinActive("ahk_class Progman") || WinActive("ahk_class WorkerW")
 ^n::CreateNewFile()
